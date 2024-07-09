@@ -1,0 +1,58 @@
+.provinsi {
+    padding: 1rem;
+}
+
+.provinsi__title {
+    color: rgb(68, 68, 251);
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+
+}
+
+.provinsi__subtitle {
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+.provinsi__table {
+    text-align: center;
+    border: rgb(68, 68, 251);
+    overflow: auto;
+    border-collapse: collapse;
+}
+
+.provinsi__table__data {
+    overflow-x: auto;
+}
+
+.provinsi__table tbody tr td {
+    padding: 1rem 2.5rem;
+    width: 200px;
+}
+
+.provinsi__table th td {
+    overflow-y:auto ;
+}
+
+@media (min-width:768px) {
+    .provinsi {
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+@media (min-width:992px) {
+    .provinsi__title {
+        margin-top: 5rem;
+        
+    }
+
+    .provinsi {
+        padding: 3rem;
+        max-width: 1200px;
+        margin: 3rem auto;
+    }
+}
